@@ -1,3 +1,10 @@
 # requirements.txt
-snowflake-snowpark-python
-streamlit
+[connections.snowflake]
+account = "QBAOQVT-YIB57513"
+user = "RajaMurugan"
+password = "Hindustan0103#"
+role = "SYSADMIN"
+warehouse = "COMPUTE_WH"
+database = "SMOOTHIES"
+schema = "PUBLIC"
+client_session_keep_alive = true
